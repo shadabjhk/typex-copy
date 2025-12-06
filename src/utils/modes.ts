@@ -3,6 +3,8 @@ enum TimeOptions {
 	Option30 = 30,
 	Option60 = 60,
 	Option120 = 120,
+	Option300 = 300,
+	
 }
 
 enum WordsOptions {
@@ -10,6 +12,7 @@ enum WordsOptions {
 	Option25 = 25,
 	Option50 = 50,
 	Option100 = 100,
+	Option100 = 150,
 }
 
 type TimeMode = {
@@ -33,6 +36,7 @@ export const modes: TestMode[] = [
 			TimeOptions.Option30,
 			TimeOptions.Option60,
 			TimeOptions.Option120,
+			TimeOptions.Option300,
 		],
 	},
 	{
@@ -42,6 +46,7 @@ export const modes: TestMode[] = [
 			WordsOptions.Option25,
 			WordsOptions.Option50,
 			WordsOptions.Option100,
+			WordsOptions.Option150,
 		],
 	},
 ];
